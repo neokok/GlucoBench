@@ -47,7 +47,7 @@ The datasets are distributed according to the following licences and can be down
 | [Hall](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2005143#pbio.2005143.s010) | [Creative Commons 4.0](https://creativecommons.org/licenses/by/4.0/) | 57 | 5 minutes |
 | [Broll](https://github.com/irinagain/iglu) | [GPL-2](https://www.r-project.org/Licenses/GPL-2) | 5 | 5 minutes |
 | [Weinstock](https://public.jaeb.org/dataset/537) | [Creative Commons 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) | 200 | 5 minutes |
-| [Tamborlane] (https://github.com/irinagain/Awesome-CGM/wiki/Tamborlane-(2008) | | 450 | 5 minutes |
+| [Tamborlane](https://github.com/irinagain/Awesome-CGM/wiki/Tamborlane-(2008) | | 450 | 5 minutes |
 
 To process the data, follow the instructions in the `exploratory_analysis/` folder. Processed datasets should be saved in the `raw_data/` folder. We provide examples in the `raw_data.zip` file.
 
