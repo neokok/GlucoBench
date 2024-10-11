@@ -11,3 +11,5 @@ nohup python ./lib/tft.py --dataset weinstock --use_covs False --optuna False > 
 # nohup python ./lib/tft.py --dataset hall --use_covs True --optuna False > ./output/track_tft_covariates_hall.txt &
 # nohup python ./lib/tft.py --dataset iglu --use_covs False --optuna False > ./output/track_tft_iglu.txt &
 # nohup python ./lib/tft.py --dataset iglu --use_covs True --optuna False > ./output/track_tft_covariates_iglu.txt &
+# nohup python ./lib/tft.py --dataset tamborlane --use_covs False --optuna False > ./output/track_tft_tamborlane.txt &
+# nohup python ./lib/tft.py --dataset tamborlane --use_covs True --optuna False > ./output/track_tft_covariates_tamborlane.txt &

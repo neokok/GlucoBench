@@ -11,3 +11,5 @@ nohup python ./lib/nhits.py --dataset hall --use_covs False --optuna False > ./o
 nohup python ./lib/nhits.py --dataset hall --use_covs True --optuna False > ./output/track_nhits_covariates_hall.txt &
 nohup python ./lib/nhits.py --dataset iglu --use_covs False --optuna False > ./output/track_nhits_iglu.txt &
 nohup python ./lib/nhits.py --dataset iglu --use_covs True --optuna False > ./output/track_nhits_covariates_iglu.txt &
+nohup python ./lib/nhits.py --dataset tamborlane --use_covs False --optuna False > ./output/track_nhits_tamborlane.txt &
+nohup python ./lib/nhits.py --dataset tamborlane --use_covs True --optuna False > ./output/track_nhits_covariates_tamborlane.txt &

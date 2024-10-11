@@ -6,4 +6,5 @@ nohup python ./lib/latentode.py --dataset colas --gpu_id 2 --optuna False > ./ou
 nohup python ./lib/latentode.py --dataset dubosson --gpu_id 0 --optuna False > ./output/track_latentode_dubosson.txt &
 nohup python ./lib/latentode.py --dataset hall --gpu_id 1 --optuna False > ./output/track_latentode_hall.txt &
 nohup python ./lib/latentode.py --dataset iglu --gpu_id 0 --optuna False > ./output/track_latentode_iglu.txt &
+nohup python ./lib/latentode.py --dataset tamborlane --gpu_id 0 --optuna False > ./output/track_latentode_tamborlane.txt &
 

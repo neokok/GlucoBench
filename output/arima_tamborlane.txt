@@ -1,0 +1,140 @@
+Optimization started at 2024-09-29 12:02:03.340941
+--------------------------------
+Loading column definition...
+Checking column definition...
+Loading data...
+Dropping columns / rows...
+Checking for NA values...
+Setting data types...
+Dropping columns / rows...
+Encoding data...
+	Updated column definition:
+		id: REAL_VALUED (ID)
+		time: DATE (TIME)
+		gl: REAL_VALUED (TARGET)
+		Gender: REAL_VALUED (STATIC_INPUT)
+		AgeAsOfRandDt: REAL_VALUED (STATIC_INPUT)
+		Race: REAL_VALUED (STATIC_INPUT)
+		Ethnicity: REAL_VALUED (STATIC_INPUT)
+		Height: REAL_VALUED (STATIC_INPUT)
+		Weight: REAL_VALUED (STATIC_INPUT)
+		DurDiabetes: REAL_VALUED (STATIC_INPUT)
+		InsulinModality: REAL_VALUED (STATIC_INPUT)
+		NumSevHypo: REAL_VALUED (STATIC_INPUT)
+		EduCareGvrP: REAL_VALUED (STATIC_INPUT)
+		EduCareGvrPEdu: REAL_VALUED (STATIC_INPUT)
+		TxGroup: REAL_VALUED (STATIC_INPUT)
+		HbA1c: REAL_VALUED (STATIC_INPUT)
+		time_year: REAL_VALUED (KNOWN_INPUT)
+		time_month: REAL_VALUED (KNOWN_INPUT)
+		time_day: REAL_VALUED (KNOWN_INPUT)
+		time_hour: REAL_VALUED (KNOWN_INPUT)
+		time_minute: REAL_VALUED (KNOWN_INPUT)
+Interpolating data...
+	Dropped segments: 35486
+	Extracted segments: 29524
+	Interpolated values: 5129768
+	Percent of values interpolated: 28.00%
+Splitting data...
+	Train: 16225860 (88.11%)
+	Val: 80360 (0.44%)
+	Test: 90504 (0.49%)
+	Test OOD: 2018532 (10.96%)
+Scaling data...
+	Scaled columns: ['id', 'gl', 'Gender', 'AgeAsOfRandDt', 'Race', 'Ethnicity', 'Height', 'Weight', 'DurDiabetes', 'InsulinModality', 'NumSevHypo', 'EduCareGvrP', 'EduCareGvrPEdu', 'TxGroup', 'HbA1c', 'time_year', 'time_month', 'time_day', 'time_hour', 'time_minute']
+Data formatting complete.
+--------------------------------
+	Train: 16447235 (89.32%)
+	Val: 80262 (0.44%)
+	Test: 90455 (0.49%)
+	Test OOD: 1796008 (9.75%)
+	Scaled columns: ['id', 'gl', 'Gender', 'AgeAsOfRandDt', 'Race', 'Ethnicity', 'Height', 'Weight', 'DurDiabetes', 'InsulinModality', 'NumSevHypo', 'EduCareGvrP', 'EduCareGvrPEdu', 'TxGroup', 'HbA1c', 'time_year', 'time_month', 'time_day', 'time_hour', 'time_minute']
+	Seed: 10 ID mean of (MSE, MAE): [1029.1124401572974, 19.345900856879332]
+	Seed: 10 OOD mean of (MSE, MAE) stats: [839.6159227382456, 17.501814631486738]
+	Seed: 10 ID median of (MSE, MAE): [250.40025188651217, 13.250005381182007]
+	Seed: 10 OOD median of (MSE, MAE) stats: [212.7210303943168, 12.159106696678984]
+	Train: 16429572 (89.22%)
+	Val: 80357 (0.44%)
+	Test: 90336 (0.49%)
+	Test OOD: 1814703 (9.85%)
+	Scaled columns: ['id', 'gl', 'Gender', 'AgeAsOfRandDt', 'Race', 'Ethnicity', 'Height', 'Weight', 'DurDiabetes', 'InsulinModality', 'NumSevHypo', 'EduCareGvrP', 'EduCareGvrPEdu', 'TxGroup', 'HbA1c', 'time_year', 'time_month', 'time_day', 'time_hour', 'time_minute']
+	Seed: 11 ID mean of (MSE, MAE): [1019.2883178317187, 19.247497258145103]
+	Seed: 11 OOD mean of (MSE, MAE) stats: [802.3243403772046, 17.173272834828538]
+	Seed: 11 ID median of (MSE, MAE): [247.76777249061888, 13.216870685069496]
+	Seed: 11 OOD median of (MSE, MAE) stats: [205.0382130223333, 11.935687932484257]
+	Train: 16391912 (89.01%)
+	Val: 81110 (0.44%)
+	Test: 90357 (0.49%)
+	Test OOD: 1851877 (10.06%)
+	Scaled columns: ['id', 'gl', 'Gender', 'AgeAsOfRandDt', 'Race', 'Ethnicity', 'Height', 'Weight', 'DurDiabetes', 'InsulinModality', 'NumSevHypo', 'EduCareGvrP', 'EduCareGvrPEdu', 'TxGroup', 'HbA1c', 'time_year', 'time_month', 'time_day', 'time_hour', 'time_minute']
+	Seed: 12 ID mean of (MSE, MAE): [1026.0308702552563, 19.448988584502914]
+	Seed: 12 OOD mean of (MSE, MAE) stats: [739.4213646861476, 16.378499749834745]
+	Seed: 12 ID median of (MSE, MAE): [259.3814516415311, 13.482564908341887]
+	Seed: 12 OOD median of (MSE, MAE) stats: [187.24900273678782, 11.43678998610215]
+	Train: 16012233 (86.96%)
+	Val: 79760 (0.43%)
+	Test: 90536 (0.49%)
+	Test OOD: 2230855 (12.12%)
+	Scaled columns: ['id', 'gl', 'Gender', 'AgeAsOfRandDt', 'Race', 'Ethnicity', 'Height', 'Weight', 'DurDiabetes', 'InsulinModality', 'NumSevHypo', 'EduCareGvrP', 'EduCareGvrPEdu', 'TxGroup', 'HbA1c', 'time_year', 'time_month', 'time_day', 'time_hour', 'time_minute']
+	Seed: 13 ID mean of (MSE, MAE): [1022.7013708917472, 19.346188112020073]
+	Seed: 13 OOD mean of (MSE, MAE) stats: [806.8220484355788, 16.701546768026766]
+	Seed: 13 ID median of (MSE, MAE): [253.08514416833836, 13.34350360894346]
+	Seed: 13 OOD median of (MSE, MAE) stats: [187.66676713156232, 11.416753558789852]
+	Train: 16369004 (88.89%)
+	Val: 80586 (0.44%)
+	Test: 90438 (0.49%)
+	Test OOD: 1874940 (10.18%)
+	Scaled columns: ['id', 'gl', 'Gender', 'AgeAsOfRandDt', 'Race', 'Ethnicity', 'Height', 'Weight', 'DurDiabetes', 'InsulinModality', 'NumSevHypo', 'EduCareGvrP', 'EduCareGvrPEdu', 'TxGroup', 'HbA1c', 'time_year', 'time_month', 'time_day', 'time_hour', 'time_minute']
+	Seed: 14 ID mean of (MSE, MAE): [1019.5295713171332, 19.342068678189918]
+	Seed: 14 OOD mean of (MSE, MAE) stats: [792.7542931696566, 16.82516746524566]
+	Seed: 14 ID median of (MSE, MAE): [254.97718080066738, 13.38721710832399]
+	Seed: 14 OOD median of (MSE, MAE) stats: [192.6473181783165, 11.555329580872053]
+	Train: 16440286 (89.27%)
+	Val: 81743 (0.44%)
+	Test: 90205 (0.49%)
+	Test OOD: 1803742 (9.79%)
+	Scaled columns: ['id', 'gl', 'Gender', 'AgeAsOfRandDt', 'Race', 'Ethnicity', 'Height', 'Weight', 'DurDiabetes', 'InsulinModality', 'NumSevHypo', 'EduCareGvrP', 'EduCareGvrPEdu', 'TxGroup', 'HbA1c', 'time_year', 'time_month', 'time_day', 'time_hour', 'time_minute']
+	Seed: 15 ID mean of (MSE, MAE): [1027.4618220234345, 19.33316495586369]
+	Seed: 15 OOD mean of (MSE, MAE) stats: [812.1779584319107, 17.017402466065207]
+	Seed: 15 ID median of (MSE, MAE): [256.1700906024217, 13.375005979091108]
+	Seed: 15 OOD median of (MSE, MAE) stats: [196.52415016777485, 11.682689442059885]
+	Train: 16318511 (88.62%)
+	Val: 80493 (0.44%)
+	Test: 90195 (0.49%)
+	Test OOD: 1925769 (10.46%)
+	Scaled columns: ['id', 'gl', 'Gender', 'AgeAsOfRandDt', 'Race', 'Ethnicity', 'Height', 'Weight', 'DurDiabetes', 'InsulinModality', 'NumSevHypo', 'EduCareGvrP', 'EduCareGvrPEdu', 'TxGroup', 'HbA1c', 'time_year', 'time_month', 'time_day', 'time_hour', 'time_minute']
+	Seed: 16 ID mean of (MSE, MAE): [1022.002194886128, 19.252132915581026]
+	Seed: 16 OOD mean of (MSE, MAE) stats: [861.9435505506325, 17.763740748649738]
+	Seed: 16 ID median of (MSE, MAE): [255.82693234835824, 13.335276426263562]
+	Seed: 16 OOD median of (MSE, MAE) stats: [218.96989418909806, 12.352220030478136]
+	Train: 16286977 (88.44%)
+	Val: 80910 (0.44%)
+	Test: 90210 (0.49%)
+	Test OOD: 1957303 (10.63%)
+	Scaled columns: ['id', 'gl', 'Gender', 'AgeAsOfRandDt', 'Race', 'Ethnicity', 'Height', 'Weight', 'DurDiabetes', 'InsulinModality', 'NumSevHypo', 'EduCareGvrP', 'EduCareGvrPEdu', 'TxGroup', 'HbA1c', 'time_year', 'time_month', 'time_day', 'time_hour', 'time_minute']
+	Seed: 17 ID mean of (MSE, MAE): [1033.842139390009, 19.442391779144195]
+	Seed: 17 OOD mean of (MSE, MAE) stats: [743.0310990386782, 16.439369758994065]
+	Seed: 17 ID median of (MSE, MAE): [262.19628859643734, 13.625056661278672]
+	Seed: 17 OOD median of (MSE, MAE) stats: [186.5984463950866, 11.394953835975958]
+	Train: 16460005 (89.39%)
+	Val: 80544 (0.44%)
+	Test: 90637 (0.49%)
+	Test OOD: 1782198 (9.68%)
+	Scaled columns: ['id', 'gl', 'Gender', 'AgeAsOfRandDt', 'Race', 'Ethnicity', 'Height', 'Weight', 'DurDiabetes', 'InsulinModality', 'NumSevHypo', 'EduCareGvrP', 'EduCareGvrPEdu', 'TxGroup', 'HbA1c', 'time_year', 'time_month', 'time_day', 'time_hour', 'time_minute']
+	Seed: 18 ID mean of (MSE, MAE): [1019.4064036762479, 19.280663964563413]
+	Seed: 18 OOD mean of (MSE, MAE) stats: [724.0390767735237, 15.99583833003688]
+	Seed: 18 ID median of (MSE, MAE): [246.00014349822212, 13.166971509949917]
+	Seed: 18 OOD median of (MSE, MAE) stats: [171.9161067333615, 10.924558003646899]
+	Train: 16274148 (88.38%)
+	Val: 81150 (0.44%)
+	Test: 90486 (0.49%)
+	Test OOD: 1968896 (10.69%)
+	Scaled columns: ['id', 'gl', 'Gender', 'AgeAsOfRandDt', 'Race', 'Ethnicity', 'Height', 'Weight', 'DurDiabetes', 'InsulinModality', 'NumSevHypo', 'EduCareGvrP', 'EduCareGvrPEdu', 'TxGroup', 'HbA1c', 'time_year', 'time_month', 'time_day', 'time_hour', 'time_minute']
+	Seed: 19 ID mean of (MSE, MAE): [1004.4225345008458, 19.271724458722446]
+	Seed: 19 OOD mean of (MSE, MAE) stats: [891.246700353774, 18.061625416309383]
+	Seed: 19 ID median of (MSE, MAE): [255.82693234835824, 13.42160530248791]
+	Seed: 19 OOD median of (MSE, MAE) stats: [226.51436515257254, 12.503017611002704]
+ID mean of (MSE, MAE): [1022.3797664929818, 19.33107215636121]
+OOD mean of (MSE, MAE): [801.3376354555352, 16.985827816947772]
+ID median of (MSE, MAE): [254.16321883814652, 13.360407757093203]
+OOD median of (MSE, MAE): [198.584529410121, 11.736110667809086]

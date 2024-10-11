@@ -11,3 +11,5 @@ nohup python ./lib/xgbtree.py --dataset hall --use_covs False --optuna False > .
 nohup python ./lib/xgbtree.py --dataset hall --use_covs True --optuna False > ./output/track_xgboost_covariates_hall.txt &
 nohup python ./lib/xgbtree.py --dataset iglu --use_covs False --optuna False > ./output/track_xgboost_iglu.txt &
 nohup python ./lib/xgbtree.py --dataset iglu --use_covs True --optuna False > ./output/track_xgboost_covariates_iglu.txt &
+nohup python ./lib/xgbtree.py --dataset tamborlane --use_covs False --optuna False > ./output/track_xgboost_tamborlane.txt &
+nohup python ./lib/xgbtree.py --dataset tamborlane --use_covs True --optuna False > ./output/track_xgboost_covariates_tamborlane.txt &
